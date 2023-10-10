@@ -16,9 +16,9 @@ This is a smart contract that implements a struct and provides function to add a
 
 # Usage
 
-people : This is a public variable that represents a mapping from 'Address' to 'Person' struct instances
+1. people : This is a public variable that represents a mapping from 'Address' to 'Person' struct instances
 
-Person : It is a user defined struct that represents an individual's information. It has the following fields:
+2. Person : It is a user defined struct that represents an individual's information. It has the following fields:
 
   'name' : A field type of String to store the person's name.
   
@@ -26,9 +26,10 @@ Person : It is a user defined struct that represents an individual's information
   
   'account' : A field type of Address to store the person's blockchain address. This is used to    uniquely identify individuals in the 'people' mapping.
 
-addPerson() : This is a public function defined within the contract that allows users to add a new person's information to the 'people' mapping. It takes three arguments: 'name','age' and 'account'. 
+3. addPerson() : This is a public function defined within the contract that allows users to add a new person's information to the 'people' mapping. It takes three 
+   arguments: 'name','age' and 'account'. 
 
-init(): This is the cotract's contstrctor which is called when the contract is deployed. It intializes the contract's people mapping as an empty map.
+4. init(): This is the cotract's contstrctor which is called when the contract is deployed. It intializes the contract's people mapping as an empty map.
 
 # License
 
