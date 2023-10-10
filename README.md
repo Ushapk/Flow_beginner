@@ -28,6 +28,7 @@ Person : It is a user defined struct that represents an individual's information
 
  addPerson() : This is a public function defined within the contract that allows users to add a new person's information to the 'people' mapping. It takes three 
    arguments: 'name','age' and 'account'. 
+   
 init(): This is the cotract's contstrctor which is called when the contract is deployed. It intializes the contract's people mapping as an empty map.
 
 # License
